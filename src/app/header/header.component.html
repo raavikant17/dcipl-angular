@@ -3,7 +3,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" routerLink="/">
         <img
           class="img-responsive"
           src="assets/logo.png" 
@@ -16,31 +16,31 @@
       <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarsDefault">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-              <a class="nav-link-d" id="id02" href="#">HOME</a>
+              <a class="nav-link-d" id="id01" routerLink="/">HOME</a>
           </li>
           <li class="nav-item dropdown" ngbDropdown>
-            <a class="nav-link-d dropdown-toggle" id="id01" href="#" ngbDropdownToggle>ABOUT US</a>
-            <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
-              <a class="dropdown-item" href="#">Company Profile</a>
-              <a class="dropdown-item" href="#">Journey So Far</a>
-              <a class="dropdown-item" href="#">Board Of Directors</a>
-              <a class="dropdown-item" href="#">Company Policies</a>
+            <a class="nav-link-d dropdown-toggle" id="id02" ngbDropdownToggle>ABOUT US</a>
+            <div class="dropdown-menu" aria-labelledby="id02" ngbDropdownMenu>
+              <a class="dropdown-item" routerLink="/about/company-profile">Company Profile</a>
+              <a class="dropdown-item" routerLink="/about/journey-so-far">Journey So Far</a>
+              <a class="dropdown-item" routerLink="/about/board-of-directors">Board Of Directors</a>
+              <a class="dropdown-item" routerLink="/about/company-policies">Company Policies</a>
             </div>
           </li>
           <li class="nav-item dropdown" ngbDropdown>
-              <a class="nav-link-d dropdown-toggle" id="id01" href="#" ngbDropdownToggle>SERVICES</a>
-              <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
-                  <a class="dropdown-item" href="#">Enterprise Application Services</a>
-                  <a class="dropdown-item" href="#">Managed Services</a>
-                  <a class="dropdown-item" href="#">IT Enabled Services(ITES)</a>
-                  <a class="dropdown-item" href="#">Business Intelligence Services</a>
+              <a class="nav-link-d dropdown-toggle" id="id03" ngbDropdownToggle>SERVICES</a>
+              <div class="dropdown-menu" aria-labelledby="id03" ngbDropdownMenu>
+                  <a class="dropdown-item" routerLink="/services/enterprise-application-services">Enterprise Application Services</a>
+                  <a class="dropdown-item" routerLink="/services/managed-services">Managed Services</a>
+                  <a class="dropdown-item" routerLink="/services/it-enabled-services">IT Enabled Services(ITES)</a>
+                  <a class="dropdown-item" routerLink="/services/business-intelligence-services">Business Intelligence Services</a>
               </div>
           </li>
           <li class="nav-item">
-              <a class="nav-link-d" id="id02" href="#">CAREER</a>
+              <a class="nav-link-d" id="id04" routerLink="/career">CAREER</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link-d" id="id02" href="#">CONTACT US</a>
+              <a class="nav-link-d" id="id05" routerLink="/contact">CONTACT US</a>
           </li>
         </ul>
       </div>
