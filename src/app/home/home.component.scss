@@ -19,3 +19,11 @@
 .image-fluid {
     height: 100vh;
   }
+
+a.carousel-control-prev {
+    display: none !important;
+}
+
+.carousel-caption {
+    text-align: left;
+}
