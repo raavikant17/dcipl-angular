@@ -9,6 +9,7 @@ export class HeaderComponent implements OnInit {
 
   isNavbarCollapsed = true;
 
+
   constructor() { }
 
   ngOnInit(): void {

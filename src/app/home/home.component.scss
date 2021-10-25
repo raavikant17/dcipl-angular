@@ -27,3 +27,21 @@ a.carousel-control-prev {
 .carousel-caption {
     text-align: left;
 }
+
+section.section.section-lg.bg-gradient-default {
+    background-color: #0c3061!important;
+}
+
+button.btn.btn-default.btn-round.btn-block.btn-lg
+{
+    background-color: #0c3061!important;
+}
+
+
+
+@media (max-width: 400px) {
+    mdb-carousel.carousel.slide.carousel-fade {
+        max-height: 900px!important;
+        max-width: 100px;
+    }
+}

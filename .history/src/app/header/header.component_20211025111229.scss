@@ -61,6 +61,6 @@ a.nav-link-d {
    color: #fff !important;
  }
 
- .dropdown:hover .dropdown-menu {
+ .dropdown:hover ::ng-deep .dropdown-menu {
   display: block;
  }
